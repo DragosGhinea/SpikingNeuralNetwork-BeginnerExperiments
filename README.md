@@ -31,6 +31,6 @@ Aplicații de recunoaștere de tipare și clasificare: Sunt potriviți pentru ap
 
 
 
-Facand diferenta dintre neuronii LIF si cei artificiali am ales sa folosim alese Neuronii LIF ce au un consumul redus de resurse , dar o acuratete sacrificată intr-un mod tolerabil. Folosind LIF, suntem cumva la mijloc intre biologie si neuronii clasici prin inlocuirea unor procere de parsare a unor inputuri cu neuroni clasici cu  primirea datele ca niste spikeuri, care simuleaza astfel impulsurile electrice, facandu-i redundanta primirea tuturor inputurile deodata.
+Mergand pe abordarea SNN, am continuat cu Neuronii LIF ce au un consumul redus de resurse , dar o acuratete sacrificată intr-un mod tolerabil. Folosind LIF, suntem cumva la mijloc intre biologie si neuronii clasici prin inlocuirea unor procere de parsare a unor inputuri cu neuroni clasici cu  primirea datele ca niste spikeuri, care simuleaza astfel impulsurile electrice, facandu-i redundanta primirea tuturor inputurile deodata.
 
 El poate sa le primeasca secvential, si dupa un timp, in functie de hiperparametrii membranei, o sa trimita si el un spike mai departe. Astfel, operatiunea aceasta iti permite sa faci procesari in paralel, pt ca nu tre sa sincronizezi nimic.
